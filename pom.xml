@@ -46,13 +46,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
+
 		<dependency>
-		    <groupId>de.javakaffee</groupId>
-		    <artifactId>kryo-serializers</artifactId>
-		    <version>0.37</version>
+			<groupId>de.javakaffee</groupId>
+			<artifactId>kryo-serializers</artifactId>
+			<version>0.37</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.jgroups</groupId>
 			<artifactId>jgroups</artifactId>
@@ -583,12 +583,12 @@
 			<artifactId>zkclient</artifactId>
 			<version>0.1</version>
 		</dependency>
-		
+
 		<dependency>
-  		<groupId>com.github.qiujiayu</groupId>
-  		<artifactId>autoload-cache</artifactId>
-  		<version>4.6</version>
-  	</dependency>
+			<groupId>com.github.qiujiayu</groupId>
+			<artifactId>autoload-cache</artifactId>
+			<version>4.6</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -614,10 +614,10 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					<compilerArgs>
-			            <arg>-Xlint:none</arg>
-			            <arg>-g:none</arg>
-			            <arg>-parameters</arg>
-			        </compilerArgs>
+						<arg>-Xlint:none</arg>
+						<arg>-g:none</arg>
+						<arg>-parameters</arg>
+					</compilerArgs>
 					<showWarnings>false</showWarnings>
 					<showDeprecation>false</showDeprecation>
 					<encoding>utf8</encoding>
