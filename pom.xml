@@ -31,6 +31,7 @@
 		<xstream.version>1.4.7</xstream.version>
 		<xalan.version>2.7.2</xalan.version>
 		<rocketmq.version>3.2.6</rocketmq.version>
+		<snaker.version>2.5.1</snaker.version>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
@@ -588,6 +589,28 @@
 			<groupId>com.github.qiujiayu</groupId>
 			<artifactId>autoload-cache</artifactId>
 			<version>4.6</version>
+		</dependency>
+		
+		<!-- snaker work flow engine-->
+		<dependency>
+			<groupId>com.github.snakerflow</groupId>
+			<artifactId>snaker-core</artifactId>
+			<version>${snaker.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.snakerflow</groupId>
+			<artifactId>snaker-spring</artifactId>
+			<version>${snaker.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.snakerflow</groupId>
+			<artifactId>snaker-mybatis</artifactId>
+			<version>${snaker.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-dbutils</groupId>
+			<artifactId>commons-dbutils</artifactId>
+			<version>1.4</version>
 		</dependency>
 	</dependencies>
 	<build>
