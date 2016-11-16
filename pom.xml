@@ -219,8 +219,7 @@
 			<artifactId>hessian</artifactId>
 			<version>4.0.38</version>
 		</dependency>
-
-		<dependency>
+  		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-dbcp2</artifactId>
 			<version>2.1</version>
@@ -625,12 +624,12 @@
 		<dependency>
 		  <groupId>org.bouncycastle</groupId>
 		  <artifactId>bcprov-jdk15on</artifactId>
-		  <version>1.53</version>
+		  <version>1.54</version>
 		</dependency>
 		<dependency>
           <groupId>org.bouncycastle</groupId>
           <artifactId>bcpkix-jdk15on</artifactId>
-          <version>1.53</version>
+          <version>1.54</version>
         </dependency>
 	</dependencies>
 	<build>
