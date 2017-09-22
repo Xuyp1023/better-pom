@@ -676,6 +676,46 @@
 			<artifactId>bcpkix-jdk15on</artifactId>
 			<version>1.54</version>
 		</dependency>
+  
+  
+      <!-- ICEPDF PDF export IMAGE -->
+		<dependency>
+			<groupId>org.icepdf</groupId>
+			<artifactId>icepdf-core</artifactId>
+			<version>6.2.5</version>
+		</dependency>
+
+      <dependency>
+       <groupId>org.icepdf</groupId>
+       <artifactId>icepdf-extra</artifactId>
+       <version>6.2.5</version>
+      </dependency>
+    
+      <dependency>
+       <groupId>org.icepdf</groupId>
+       <artifactId>icepdf-pro</artifactId>
+       <version>6.2.5</version>
+      </dependency>
+    
+      <dependency>
+       <groupId>org.icepdf</groupId>
+       <artifactId>icepdf-pro-intl</artifactId>
+       <version>6.2.5</version>
+      </dependency>
+       
+      <dependency>
+       <groupId>org.icepdf</groupId>
+       <artifactId>icepdf-viewer</artifactId>
+       <version>6.2.5</version>
+      </dependency>
+       
+ <!-- https://mvnrepository.com/artifact/com.levigo.jbig2/levigo-jbig2-imageio -->
+ <dependency>
+     <groupId>com.levigo.jbig2</groupId>
+     <artifactId>levigo-jbig2-imageio</artifactId>
+     <version>2.0</version>
+ </dependency>
+       
 	</dependencies>
 	<build>
 		<plugins>
